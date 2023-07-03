@@ -4,7 +4,13 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("je hebt nu premium!");
+            Song song = new Song(naam,artiest,hard, 1);
+            List<Song> list = new List<Song>();
+            list.Add(song);
+
+            Client client = new Client(list);
+            client.ShowAllAlbums();
+            client.SelectAlbums(0);
         }
     }
 }

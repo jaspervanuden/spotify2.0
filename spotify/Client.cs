@@ -27,18 +27,26 @@ namespace spotify
         }
         public void SetActiveUser(Person person)
         { 
+            
 
         }
         public void ShowAllAlbums()
         {
-
+            foreach(Album album in AllAlbums)
+            {
+                Console.WriteLine(album.ToString);
+            }
         }
         public void SelectAlbums(int index)
         {
 
         }
-        public void ShowAllSongs() {
-
+        public void ShowAllSongs() 
+        {
+            foreach (Song song in AllSongs)
+            {
+                Console.WriteLine(song.ToString);
+            }
         }
         public void SelectSongs(int index)
         {
@@ -46,6 +54,10 @@ namespace spotify
         }
         public void ShowAllUsers()
         {
+            foreach(Person person in AllUsers)
+            {
+                Console.WriteLine(person.ToString);
+            }
 
         }
         public void SelectUsers(int index)
@@ -54,6 +66,7 @@ namespace spotify
         }
         public void ShowUserPlaylists()
         {
+            foreach()
 
         }
         public void SelectUserPlaylist(int index)

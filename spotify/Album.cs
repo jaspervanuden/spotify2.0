@@ -1,6 +1,6 @@
 ﻿namespace spotify
 {
-    public class Album 
+    public class Album : SongCollection
     {
         private List<Artist> artists;
         public Album(List<Artist> artists, string album, List<Song> songs)

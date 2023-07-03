@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace spotify
 {
-    internal class Song
+    public class Song : iPlayable
     {
         public string Title;
         public List<Artist> Artists;
@@ -19,6 +19,29 @@ namespace spotify
             this.Title = song;
             this.Artists = artists;
         }
+
+        public int Length { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+
+        public void Next()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Pause()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Play()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Stop()
+        {
+            throw new NotImplementedException();
+        }
+
         public override string ToString()
         {
             return base.ToString();

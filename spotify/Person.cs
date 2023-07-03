@@ -26,7 +26,7 @@ namespace spotify
         }
         public Playlist SelectPlaylist(int index) 
         {
-            return index;
+            return ;
         }
         public override string ToString()
         {

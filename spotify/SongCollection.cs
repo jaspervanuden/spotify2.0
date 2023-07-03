@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace spotify
 {
-    internal class SongCollection
+    internal class SongCollection : iPlayable
     {
         public string Title;
         private List<iPlayable> playables;
@@ -19,9 +19,9 @@ namespace spotify
         {
             return base.ToString();
         }
-        public List<iPlayable> iPlayables ShowPlayables()
+        public List<iPlayable> ShowPlayables()
         {
-            
+            return playables;
         }
     }
 }

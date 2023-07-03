@@ -2,21 +2,17 @@
 {
     internal class SuperUser
     {
-        public void AddFriend(Person person)
+        public void AddFriend(Person index)
         {
-
+            return;
         }
-        public void RemoveFriend(Person person)
+        public void RemoveFriend(Person index)
         {
-
+            return; 
         }
-        public Playlist CreatePlaylist(Person person)
+        public Playlist CreatePlaylist(string index)
         {
-            return Playlist;
-
-        }
-        public Playlist CreatePlaylist(string playlist)
-        {
+            
 
         }
         public void RemovePlaylist(int index)

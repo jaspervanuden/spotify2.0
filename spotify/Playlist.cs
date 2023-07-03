@@ -1,6 +1,6 @@
 ﻿namespace spotify
 {
-    internal class Playlist
+    internal class Playlist : SongCollection
     {
         public Person Owner;
 
