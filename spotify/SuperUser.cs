@@ -12,9 +12,10 @@
         }
         public Playlist CreatePlaylist(Person person)
         {
+            return Playlist;
 
         }
-        public Playlist playlist CreatePlaylist(string playlist)
+        public Playlist CreatePlaylist(string playlist)
         {
 
         }

@@ -16,17 +16,17 @@ namespace spotify
         {
             Name = person;
         }
-        public List<Person> person ShowFriends()
+        public List<Person> ShowFriends()
         {
-            Friends = new List<Person>();
+            return Friends;
         }
-        public List<Playlist> playlist ShowPlaylists()
+        public List<Playlist> ShowPlaylists()
         {
-            Playlists = new List<Playlist>();
+            return Playlists;
         }
-        public SelectPlaylist(int playlist)
+        public Playlist SelectPlaylist(int index) 
         {
-
+            return index;
         }
         public override string ToString()
         {

@@ -6,6 +6,7 @@
         public Album(List<Artist> artists, string album, List<Song> songs)
         {
             this.artists = artists;
+            
         }
         public List<Artist> ShowArtists()
         {
